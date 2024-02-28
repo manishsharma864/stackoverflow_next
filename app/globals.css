@@ -16,7 +16,7 @@ font-family: "Inter", sans-serif;
 @apply flex justify-start items-center;
 }
 .card-wrapper {
-@apply bg-light-900 dark:dark-gradient shadow-light-100 dar
+@apply bg-light-900 dark:dark-gradient shadow-light-100 dark;
 }
 .btn {
 @apply bg-light-800 dark:bg-dark-300 !important;
@@ -77,7 +77,7 @@ background: #888;
 border-radius: 50px;
 }
 .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-background-color: #555;
+background: #555;
 }
 /* Markdown Start */
 .markdown a {
